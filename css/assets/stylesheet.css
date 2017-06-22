@@ -1,0 +1,119 @@
+/* Stylesheet for Random Quote Generator App */
+h1, h2, h3 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif !important;
+    font-weight: 100 !important;
+}
+
+body, p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif !important;
+  font-weight: 300 !important;
+}
+
+.outer {
+  height: 100vh;
+  background: url('image/flower-garden.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.heading {
+  margin-top: 15vh;
+}
+
+#main {
+  width: 55%;
+  margin-top: 6vh;
+  margin-left: 22.5%;
+  padding: 40px 30px;
+  background: rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+#main:hover {
+  box-shadow: 6px 6px 3px rgba(10, 10, 10, 0.5);
+  border: 1px solid #aaa;
+}
+
+#quote-text {
+  color: #172617;
+  font-size: 1.5em;
+  line-height: 1.7em;
+  font-weight: 300 !important;
+}
+
+#author-text {
+  font-style: italic;
+  font-size: 1.4em;
+  font-weight: 500 !important;
+  color: #263238;
+}
+
+#tweetQuote {
+  float: left;
+  margin-top: 30px;
+  margin-left: 22.5%;
+  width: 8%;
+  font-size: 1.2em;
+  font-weight: 300 !important;
+  border-radius: 100px;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#tweetQuote:hover{
+  background-color: #337AB7;
+}
+
+#quoteButton {
+  float: none;
+  margin-top: 30px;
+  margin-left: 67.5%;
+  display: block;
+  width: 10%;
+  font-size: 1.2em;
+  background-color: #4CAF50;
+  color: #FFF;
+  padding: 3px auto;
+  border-radius: 100px;
+  font-weight: 300 !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+#quoteButton:hover {
+  background-color: #263238;
+}
+
+#quoteButton:visited {
+  color: #FFF !important;
+}
+
+#footer {
+    text-align: center;
+    display: block;
+    margin: 40px auto;
+    font-size: 0.9em;
+    font-weight: 400 !important;
+    color: #333;
+}
+
+#footer a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #444;
+}
+
+#footer a:hover {
+  color: #000;
+}
+/* CSS Ends */
